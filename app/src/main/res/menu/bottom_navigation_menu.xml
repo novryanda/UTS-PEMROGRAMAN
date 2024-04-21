@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_mahasiswa"
+        android:title="@string/bottom_mahasiswa"
+        android:icon="@drawable/baseline_person_24"
+        
+        />
+
+    <item
+        android:id="@+id/bottom_dosen_pembimbing"
+        android:title="@string/bottom_dosen_pembimbing"
+        android:icon="@drawable/baseline_people_24"
+    />
+
+    <item
+        android:id="@+id/bottom_dosen_penguji"
+        android:title="@string/bottom_dosen_penguji"
+        android:icon="@drawable/baseline_people_24"
+        />
+</menu>

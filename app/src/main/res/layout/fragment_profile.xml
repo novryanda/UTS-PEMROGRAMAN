@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logouin"
+            android:layout_marginTop="60dp"
+            />
+
+        <!-- Profile Details -->
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama: John Doe"
+            android:textSize="18sp"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:id="@+id/txtNIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIM/NIS: 1234567890"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtUmur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Umur: 25"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtTempatTanggalLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat/Tanggal Lahir: Jakarta, 01 Januari 1999"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat: Jl. ABC No. 123, Jakarta"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin: Laki-laki"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: johndoe@example.com"
+            android:paddingTop="8dp"/>
+
+    </LinearLayout>
+</FrameLayout>
